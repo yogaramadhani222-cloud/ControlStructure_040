@@ -18,3 +18,11 @@ a, b = 0, 1
 while a <= batas:
     print(a)
     a, b = b, a + b
+    
+    n = 5
+
+import math
+n = 5
+batas = math.factorial(n)
+for i in range(1, batas + 1, 2):
+    print(i)
