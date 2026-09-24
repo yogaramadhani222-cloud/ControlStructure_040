@@ -8,3 +8,6 @@ elif performance >= "70":
     print("Good Performance")
 elif performance >= "60":
     print("Then Average Performance")
+    
+for steps in range(1,4):
+        print(steps)
