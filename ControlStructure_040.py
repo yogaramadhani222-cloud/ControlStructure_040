@@ -11,3 +11,10 @@ elif performance >= "60":
     
 for steps in range(1,4):
         print(steps)
+        
+import math
+batas = math.factorial(10)
+a, b = 0, 1
+while a <= batas:
+    print(a)
+    a, b = b, a + b
