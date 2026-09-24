@@ -26,3 +26,7 @@ n = 5
 batas = math.factorial(n)
 for i in range(1, batas + 1, 2):
     print(i)
+    
+n = 5
+for i in range(1, n + 1):
+    print(f"{i} " * i)
